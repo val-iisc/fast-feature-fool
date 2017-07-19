@@ -35,10 +35,4 @@ Named `perturbation_<cnn name>_mean.npy`, use mean of activations as the loss fu
 | VGG-19      | 66.14%      |   43.62% |
 | GoogLeNet | 67.92%      |    56.44% |
 
-
-### Reference:
-```
-
-```
-
 Contact [Utsav Garg](http://utsavgarg.github.io/) if you have questions.
