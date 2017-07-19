@@ -1,7 +1,7 @@
 # Fast Feature Fool
 
 Code for the paper
-**[Fast Feature Fool: A data independent approach to universal adversarial perturbations]()**
+**[Fast Feature Fool: A data independent approach to universal adversarial perturbations](https://arxiv.org/abs/1707.05572)**
 
 Konda Reddy Mopuri, Utsav Garg, R. Venkatesh Babu
 
