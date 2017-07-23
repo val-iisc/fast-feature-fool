@@ -35,4 +35,13 @@ Named `perturbation_<cnn name>_mean.npy`, use mean of activations as the loss fu
 | VGG-19      | 66.14%      |   43.62% |
 | GoogLeNet | 67.92%      |    56.44% |
 
+## Reference
+```
+@article{mopuri2017fast,
+  title={Fast Feature Fool: A data independent approach to universal adversarial perturbations},
+  author={Mopuri, Konda Reddy and Garg, Utsav and Babu, R Venkatesh},
+  journal={arXiv preprint arXiv:1707.05572},
+  year={2017}
+}
+```
 Contact [Utsav Garg](http://utsavgarg.github.io/) if you have questions.
