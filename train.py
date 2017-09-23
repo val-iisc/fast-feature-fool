@@ -70,7 +70,7 @@ def train(adv_net, net, in_im, ad_im, opt_layers, net_name):
         download_link = "https://www.dropbox.com/s/0v8pnnumbytb378/preprocessed_images_227.npy?raw=1"
     else:
         data_path = os.path.join('data', 'preprocessed_images_224.npy')
-        download_link = "https://www.dropbox.com/s/k4tamvdjndyvgws/preprocessed_images_224.npy?raw=0"
+        download_link = "https://www.dropbox.com/s/k4tamvdjndyvgws/preprocessed_images_224.npy?raw=1"
     if os.path.isfile(data_path) == 0:
         print('Downloading validation data (1K images)...')
         urlretrieve (download_link, data_path)
