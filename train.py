@@ -39,7 +39,7 @@ def choose_net(network):
     adv_image = tf.Variable(tf.random_uniform([1,size,size,3],minval=-10,maxval=10), name='noise_image', dtype='float32')
     # clipping for imperceptibility constraint
     adv_image = tf.clip_by_value(adv_image,-10,10)
-    input_batch = tf.concat([input_image, tf.add(input_image,adv_image-10)], 0)
+    input_batch = tf.concat([input_image, tf.add(input_image,adv_image)], 0)
 
     return MAP[network](adv_image), MAP[network](input_batch), input_image, adv_image
 
