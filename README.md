@@ -37,11 +37,11 @@ Named `perturbation_<cnn name>_mean.npy`, use mean of activations as the loss fu
 
 ## Reference
 ```
-@article{mopuri2017fast,
+@inproceedings{mopuri-bmvc-2017,
   title={Fast Feature Fool: A data independent approach to universal adversarial perturbations},
   author={Mopuri, Konda Reddy and Garg, Utsav and Babu, R Venkatesh},
-  journal={arXiv preprint arXiv:1707.05572},
-  year={2017}
+ booktitle = {Proceedings of the British Machine Vision Conference ({BMVC})},
+ year = {2017}
 }
 ```
 Contact [Utsav Garg](http://utsavgarg.github.io/) if you have questions.
